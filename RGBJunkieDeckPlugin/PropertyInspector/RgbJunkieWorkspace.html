@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+
+    <title>RGBJunkie Canvas</title>
+
+    <link rel="stylesheet" href="sdpi.css">
+
+    <script src="sdtools.common.js"></script>
+
+</head>
+
+<body>
+
+    <div class="sdpi-item">
+
+        <div class="sdpi-item-label">Canvas</div>
+
+        <select class="sdpi-item-value select sdProperty sdList" id="installedWorkspaces"
+
+                sdListTextProperty="name" sdListValueProperty="id" sdValueField="selectedWorkspaceId"
+                onchange="setSettings()"></select>
+
+    </div>
+
+    <div class="sdpi-item">
+
+        <details class="sdpi-item-value">
+
+            <summary>Which canvas?</summary>
+
+            <p><strong>Selected canvas</strong> uses whichever tab is open in RGBJunkie. Pick a specific tab to change that canvas without switching tabs in the app.</p>
+
+        </details>
+
+    </div>
+
+    <p class="sdpi-item-label">Assign to a Stream Deck + dial. Rotate to send the action to RGBJunkie (the app stays in the tray).</p>
+
+</body>
+
+</html>
+

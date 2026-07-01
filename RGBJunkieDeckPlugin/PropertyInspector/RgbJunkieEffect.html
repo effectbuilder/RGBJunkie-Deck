@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <title>RGBJunkie Effect</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Canvas</div>
+        <select class="sdpi-item-value select sdProperty sdList" id="installedWorkspaces"
+                sdListTextProperty="name" sdListValueProperty="id" sdValueField="selectedWorkspaceId"></select>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">RGBJunkie Effect</div>
+        <select class="sdpi-item-value select sdProperty sdList" id="installedEffects"
+                sdListTextProperty="name" sdListValueProperty="id" sdValueField="selectedEffectId"></select>
+    </div>
+    <div class="sdpi-item">
+        <details class="sdpi-item-value">
+            <summary>Missing an effect or canvas?</summary>
+            <p>Effects come from RGBJunkie on this PC. Canvas tabs are read from your saved layout. Reopen this inspector after adding tabs or effects in RGBJunkie.</p>
+        </details>
+    </div>
+</body>
+</html>

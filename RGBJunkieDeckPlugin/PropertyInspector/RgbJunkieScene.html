@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <title>RGBJunkie Scene</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Saved scene</div>
+        <select class="sdpi-item-value select sdProperty sdList" id="installedScenes"
+                sdListTextProperty="name" sdListValueProperty="id" sdValueField="selectedSceneId"
+                onchange="setSettings()"></select>
+    </div>
+    <div class="sdpi-item">
+        <details class="sdpi-item-value">
+            <summary>No scenes listed?</summary>
+            <p>Save a scene in RGBJunkie first (Scene bar above the canvas). Files live in your RGBJunkie user folder under <code>profiles/scenes</code>.</p>
+        </details>
+    </div>
+</body>
+</html>

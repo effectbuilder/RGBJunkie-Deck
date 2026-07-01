@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <title>RGBJunkie Brightness</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="sdtools.common.js"></script>
+</head>
+<body>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Step per tick</div>
+        <select class="sdpi-item-value select sdProperty" id="stepPercent" onchange="setSettings()">
+            <option value="1">1%</option>
+            <option value="2">2%</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+        </select>
+    </div>
+    <div class="sdpi-item">
+        <details class="sdpi-item-value">
+            <summary>Dial controls</summary>
+            <p><strong>Rotate</strong> — raise or lower master brightness (the same slider above the canvas in RGBJunkie).</p>
+            <p><strong>Press dial or touch LCD</strong> — reset brightness to 100%.</p>
+        </details>
+    </div>
+</body>
+</html>

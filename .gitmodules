@@ -1,0 +1,3 @@
+[submodule "barraider-sdtools"]
+	path = barraider-sdtools
+	url = https://github.com/BarRaider/barraider-sdtools.git

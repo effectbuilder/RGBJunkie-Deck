@@ -1,0 +1,8 @@
+{
+  "name": "rgbjunkie-deck-icons",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "sharp": "^0.34.2"
+  }
+}

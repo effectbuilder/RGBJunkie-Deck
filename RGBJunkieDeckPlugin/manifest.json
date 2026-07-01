@@ -1,0 +1,445 @@
+{
+
+  "Actions": [
+
+    {
+
+      "Icon": "Images/Actions/Effect/actionList-effect",
+
+      "Name": "RGBJunkie Effect",
+
+      "States": [{ "Image": "Images/Actions/Effect/action-effect", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Switch to a specific RGBJunkie effect on a chosen canvas tab.",
+
+      "UUID": "com.rgbjunkie.deck.effect",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieEffect.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Effect/actionList-prev-effect",
+
+      "Name": "RGBJunkie Previous Effect",
+
+      "States": [{ "Image": "Images/Actions/Effect/action-prev-effect", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Go to the previous effect on a chosen canvas tab.",
+
+      "UUID": "com.rgbjunkie.deck.previouseffect",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieWorkspace.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Effect/actionList-next-effect",
+
+      "Name": "RGBJunkie Next Effect",
+
+      "States": [{ "Image": "Images/Actions/Effect/action-next-effect", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Go to the next effect on a chosen canvas tab.",
+
+      "UUID": "com.rgbjunkie.deck.nexteffect",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieWorkspace.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Scene/actionList-scene",
+
+      "Name": "RGBJunkie Scene",
+
+      "States": [{ "Image": "Images/Actions/Scene/action-scene", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Load a saved RGBJunkie scene (layout + effect).",
+
+      "UUID": "com.rgbjunkie.deck.scene",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieScene.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Scene/actionList-prev-scene",
+
+      "Name": "RGBJunkie Previous Scene",
+
+      "States": [{ "Image": "Images/Actions/Scene/action-prev-scene", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Load the previous saved scene.",
+
+      "UUID": "com.rgbjunkie.deck.previousscene",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Scene/actionList-next-scene",
+
+      "Name": "RGBJunkie Next Scene",
+
+      "States": [{ "Image": "Images/Actions/Scene/action-next-scene", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Load the next saved scene.",
+
+      "UUID": "com.rgbjunkie.deck.nextscene",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-view-effects",
+
+      "Name": "RGBJunkie Effect Browser",
+
+      "States": [{ "Image": "Images/Actions/Views/action-view-effects", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Open the RGBJunkie effect browser.",
+
+      "UUID": "com.rgbjunkie.deck.vieweffects",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-view-hardware",
+
+      "Name": "RGBJunkie Hardware Settings",
+
+      "States": [{ "Image": "Images/Actions/Views/action-view-hardware", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Open Settings → Hardware in RGBJunkie.",
+
+      "UUID": "com.rgbjunkie.deck.viewhardware",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-view-installed",
+
+      "Name": "RGBJunkie Installed",
+
+      "States": [{ "Image": "Images/Actions/Views/action-view-installed", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Open Settings → Installed (plugins, effects, components).",
+
+      "UUID": "com.rgbjunkie.deck.viewinstalled",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-view-logs",
+
+      "Name": "RGBJunkie Logs",
+
+      "States": [{ "Image": "Images/Actions/Views/action-view-logs", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Open Settings → System (logs).",
+
+      "UUID": "com.rgbjunkie.deck.viewlogs",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-open-plugins",
+
+      "Name": "RGBJunkie Plugins Folder",
+
+      "States": [{ "Image": "Images/Actions/Views/action-open-plugins", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Open your RGBJunkie plugins folder in File Explorer.",
+
+      "UUID": "com.rgbjunkie.deck.openplugins",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Views/actionList-restart",
+
+      "Name": "RGBJunkie Restart",
+
+      "States": [{ "Image": "Images/Actions/Views/action-restart", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Restart the RGBJunkie application.",
+
+      "UUID": "com.rgbjunkie.deck.restart",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/pluginAction",
+
+      "Name": "RGBJunkie Master Brightness",
+
+      "Controllers": ["Encoder"],
+
+      "Encoder": {
+
+        "layout": "$B1",
+
+        "TriggerDescription": {
+
+          "Rotate": "Adjust master brightness",
+
+          "Push": "Set brightness to 100%",
+
+          "Touch": "Set brightness to 100%"
+
+        }
+
+      },
+
+      "States": [{ "Image": "Images/pluginAction" }],
+
+      "SupportedInMultiActions": false,
+
+      "Tooltip": "Stream Deck + only: assign this to a dial (not a regular key). Rotate to adjust RGBJunkie master brightness; press dial or touch LCD to reset to 100%.",
+
+      "UUID": "com.rgbjunkie.deck.masterbrightness",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieBrightness.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Effect/actionList-effect",
+
+      "Name": "RGBJunkie Cycle Effect (Dial)",
+
+      "Controllers": ["Encoder"],
+
+      "Encoder": {
+
+        "layout": "$A1",
+
+        "TriggerDescription": {
+
+          "Rotate": "Previous / next effect"
+
+        }
+
+      },
+
+      "States": [{ "Image": "Images/Actions/Effect/action-effect" }],
+
+      "SupportedInMultiActions": false,
+
+      "Tooltip": "Stream Deck + dial: rotate to step through effects on a chosen canvas tab.",
+
+      "UUID": "com.rgbjunkie.deck.cycleeffectdial",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieWorkspace.html"
+
+    },
+
+    {
+
+      "Icon": "Images/Actions/Scene/actionList-scene",
+
+      "Name": "RGBJunkie Cycle Scene (Dial)",
+
+      "Controllers": ["Encoder"],
+
+      "Encoder": {
+
+        "layout": "$A1",
+
+        "TriggerDescription": {
+
+          "Rotate": "Previous / next scene"
+
+        }
+
+      },
+
+      "States": [{ "Image": "Images/Actions/Scene/action-scene" }],
+
+      "SupportedInMultiActions": false,
+
+      "Tooltip": "Stream Deck + dial: rotate to step through your saved scenes.",
+
+      "UUID": "com.rgbjunkie.deck.cyclescenedial",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/pluginAction",
+
+      "Name": "RGBJunkie Pause + Brightness (Dial)",
+
+      "Controllers": ["Encoder"],
+
+      "Encoder": {
+
+        "layout": "$B1",
+
+        "TriggerDescription": {
+
+          "Rotate": "Adjust brightness",
+
+          "Push": "Pause / resume lights",
+
+          "Touch": "Pause / resume lights"
+
+        }
+
+      },
+
+      "States": [{ "Image": "Images/pluginAction" }],
+
+      "SupportedInMultiActions": false,
+
+      "Tooltip": "Stream Deck + dial: press or touch to pause/resume effects; rotate to dim or brighten master brightness.",
+
+      "UUID": "com.rgbjunkie.deck.pausebrightnessdial",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieBrightness.html"
+
+    },
+
+    {
+
+      "Icon": "Images/pluginAction",
+
+      "Name": "RGBJunkie Brightness Up",
+
+      "States": [{ "Image": "Images/pluginAction", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Raise RGBJunkie master brightness by 5%.",
+
+      "UUID": "com.rgbjunkie.deck.brightnessup",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/pluginAction",
+
+      "Name": "RGBJunkie Brightness Down",
+
+      "States": [{ "Image": "Images/pluginAction", "TitleAlignment": "middle", "FontSize": "12" }],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Lower RGBJunkie master brightness by 5%.",
+
+      "UUID": "com.rgbjunkie.deck.brightnessdown",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    },
+
+    {
+
+      "Icon": "Images/pluginAction",
+
+      "Name": "RGBJunkie Toggle Lights",
+
+      "States": [
+
+        { "Image": "Images/pluginAction", "TitleAlignment": "bottom", "FontSize": "11", "Title": "Lights" },
+
+        { "Image": "Images/pluginAction", "TitleAlignment": "bottom", "FontSize": "14", "Title": "OFF" }
+
+      ],
+
+      "SupportedInMultiActions": true,
+
+      "Tooltip": "Pause the effect and temporarily turn off all RGBJunkie device LEDs. Press again to restore.",
+
+      "UUID": "com.rgbjunkie.deck.togglelights",
+
+      "PropertyInspectorPath": "PropertyInspector/RgbJunkieDefault.html"
+
+    }
+
+  ],
+
+  "Author": "RGBJunkie",
+
+  "Description": "Control RGBJunkie from your Stream Deck — effects, scenes, settings, and more via rgbjunkie:// links.",
+
+  "Name": "RGBJunkie-Deck",
+
+  "Icon": "Images/pluginIcon",
+
+  "URL": "https://www.rgbjunkie.com",
+
+  "Version": "1.2.2",
+
+  "CodePath": "com.rgbjunkie.deck",
+
+  "Category": "RGBJunkie",
+
+  "CategoryIcon": "Images/categoryIcon",
+
+  "OS": [{ "Platform": "windows", "MinimumVersion": "10" }],
+
+  "SDKVersion": 2,
+
+  "Software": { "MinimumVersion": "6.4" }
+
+}
+
+
