@@ -15,7 +15,7 @@ Inspired by [SignalRGB-Deck](https://github.com/bill-z-bawb/SignalRGB-Deck); use
 ## Get the source
 
 ```powershell
-git clone --recurse-submodules https://github.com/rgbjunkie/RGBJunkie-Deck.git
+git clone --recurse-submodules https://github.com/effectbuilder/RGBJunkie-Deck.git
 cd RGBJunkie-Deck
 ```
 
