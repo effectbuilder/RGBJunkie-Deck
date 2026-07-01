@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Package release zip
+        shell: pwsh
+        run: |
+          $zip = & ./scripts/package-release.ps1
+          "ZIP_PATH=$zip" >> $env:GITHUB_ENV
+
+      - name: Read plugin version
+        id: ver
+        shell: pwsh
+        run: |
+          $m = Get-Content RGBJunkieDeckPlugin/manifest.json -Raw | ConvertFrom-Json
+          "version=$($m.Version)" >> $env:GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.ZIP_PATH }}
+          generate_release_notes: true
+          name: RGBJunkie-Deck v${{ steps.ver.outputs.version }}

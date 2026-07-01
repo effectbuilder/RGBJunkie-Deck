@@ -39,7 +39,11 @@ $ErrorActionPreference = 'Stop'
 $RepoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $ProjectDir = Join-Path $RepoRoot 'RGBJunkieDeckPlugin'
 $PluginFolderName = 'com.rgbjunkie.deck.sdPlugin'
+$BundledPlugin = Join-Path $RepoRoot $PluginFolderName
 $BuildOut = Join-Path $ProjectDir "bin\$Configuration\$PluginFolderName"
+$ProjectFile = Join-Path $ProjectDir 'RGBJunkieDeckPlugin.csproj'
+$HasSourceTree = Test-Path -LiteralPath $ProjectFile
+$HasBundledPlugin = Test-Path -LiteralPath (Join-Path $BundledPlugin 'manifest.json')
 $PluginsRoot = Join-Path $env:APPDATA 'Elgato\StreamDeck\Plugins'
 $InstallDest = Join-Path $PluginsRoot $PluginFolderName
 
@@ -79,7 +83,7 @@ Write-Host "  Project:  $ProjectDir"
 Write-Host "  Install:  $InstallDest"
 Write-Host ""
 
-if (-not $SkipBuild) {
+if (-not $SkipBuild -and $HasSourceTree) {
     Write-Host "Building ($Configuration)..."
     Push-Location $ProjectDir
     try {
@@ -91,6 +95,10 @@ if (-not $SkipBuild) {
     finally {
         Pop-Location
     }
+}
+elseif ($HasBundledPlugin) {
+    Write-Host "Using bundled plugin folder (release install)."
+    $BuildOut = $BundledPlugin
 }
 else {
     Write-Host "Skipping build (-SkipBuild)."

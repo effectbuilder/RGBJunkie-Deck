@@ -75,6 +75,14 @@ Set `$env:RGBJUNKIE_STREAMDECK_EXE` if Stream Deck is not under Program Files.
 
 Or double-click the `.sdPlugin` folder if Windows associates it with Stream Deck.
 
+### Install from a GitHub Release (no build tools)
+
+1. Download **`RGBJunkie-Deck-x.y.z-win.zip`** from [Releases](https://github.com/effectbuilder/RGBJunkie-Deck/releases).
+2. Extract the zip.
+3. Double-click **`install-deck-plugin.bat`** (or run `install-deck-plugin.ps1`).
+
+The zip includes the compiled `com.rgbjunkie.deck.sdPlugin` folder and the install script.
+
 ## Actions
 
 | Action | What it does |

@@ -6,3 +6,4 @@ obj/
 Thumbs.db
 **/pluginlog.log
 scripts/node_modules/
+dist/
